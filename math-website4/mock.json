@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1-기출-1",
+    "grade": "1",
+    "difficulty": "기출",
+    "question": "두 다항식 P = x² + 6xy + 5y², Q = 5x² - 6xy - y²에 대하여 P+Q를 간단히 하면?",
+    "answer": "③",
+    "solution": "P+Q = (x²+6xy+5y²)+(5x²-6xy-y²) = 6x² + 4y² → ③ 6x²+4y²"
+  },{
+    "id": "1-기출-2",
+    "grade": "1",
+    "difficulty": "기출",
+    "question": "복소수 z = 1 - 5i에 대하여 z + z̅의 값은?",
+    "answer": "②",
+    "solution": "z+z̅ = (1-5i)+(1+5i) = 2 → ② 2"
+  },{
+    "id": "1-기출-3",
+    "grade": "1",
+    "difficulty": "기출",
+    "question": "항등식 x² + a x + b = x(x+6) + 7이 될 때 a×b의 값은?",
+    "answer": "①",
+    "solution": "a=6, b=7 → 6×7=42 → ① 42"
+  },{
+    "id": "1-기출-4",
+    "grade": "1",
+    "difficulty": "기출",
+    "question": "두 점 A(2,6), B(5,y) 사이의 거리가 √13일 때 양수 y의 값은?",
+    "answer": "③",
+    "solution": "√((5-2)²+(y-6)²)=√13 → (y-6)²=4 → y=8 → ③ 8"
+  },{
+    "id": "1-기출-30",
+    "grade": "1",
+    "difficulty": "기출",
+    "question": "(30번 문항 전문)",
+    "answer": "144",
+    "solution": "PDF에서 복사한 풀이"
+  }
+]

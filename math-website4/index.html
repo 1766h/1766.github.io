@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>고등 수학 문제풀이</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 인증 화면 -->
+  <div id="authScreen">
+    <h2>환영합니다!</h2>
+    <button id="showSignup">회원가입</button>
+    <button id="showLogin">로그인</button>
+
+    <form id="signupForm" class="hidden">
+      <h3>회원가입</h3>
+      <input id="suUsername" placeholder="사용자 이름" required>
+      <input id="suPassword" type="password" placeholder="비밀번호" required>
+      <button type="submit">가입하기</button>
+    </form>
+
+    <form id="loginForm" class="hidden">
+      <h3>로그인</h3>
+      <input id="liUsername" placeholder="사용자 이름" required>
+      <input id="liPassword" type="password" placeholder="비밀번호" required>
+      <button type="submit">로그인</button>
+    </form>
+
+    <div id="authMsg"></div>
+  </div>
+
+  <!-- 메인 화면 -->
+  <div id="app" class="hidden">
+    <div class="header">
+      <span id="welcomeUser"></span>
+      <button id="logoutBtn">로그아웃</button>
+    </div>
+
+    <h1>고등 수학 문제풀이</h1>
+    <label for="gradeSelect">학년 선택:</label>
+    <select id="gradeSelect">
+      <option value="">--선택하세요--</option>
+      <option value="1">1학년</option>
+      <option value="2">2학년</option>
+      <option value="3">3학년</option>
+    </select>
+
+    <label for="difficultySelect">난이도 선택:</label>
+    <select id="difficultySelect">
+      <option value="">--선택하세요--</option>
+      <option value="하">하</option>
+      <option value="중">중</option>
+      <option value="상">상</option>
+      <option value="기출">기출</option>
+    </select>
+
+    <div id="questionContainer">
+      <p>학년과 난이도를 선택하면 문제가 나옵니다.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

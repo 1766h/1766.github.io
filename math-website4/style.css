@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.hidden { display: none; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+label, select {
+  margin: 0.5rem 0;
+  display: block;
+}
+
+.question {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.solution {
+  margin-top: 0.5rem;
+  background: #f9f9f9;
+  padding: 0.5rem;
+  border-left: 3px solid #888;
+}
+
+.comment-input {
+  width: 70%;
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+}
+.comment-btn {
+  padding: 0.4rem 0.8rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.comment-list {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  border-top: 1px dashed #ccc;
+}
+.comment-item {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+.comment-user { font-weight: bold; }
+.comment-time {
+  color: #666;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+.comment-delete {
+  margin-left: 0.5rem;
+  color: red;
+  cursor: pointer;
+}
+
+#adminPanel {
+  border: 1px solid #f00;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.user-delete {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
